@@ -1,0 +1,35 @@
+/* Override docs.css and customized for extoix
+-------------------------------------------------- */
+body {
+  background-image: url(../img/grid-18px-masked.png);
+}
+
+/* Commented out docs.css navbar tweak and replaced with own
+-------------------------------------------------- */
+.kukbrand {
+/*   padding-right: 20; */
+  color: #ffffff;
+  font-weight: bold;
+  background-image: url('/johnkuk/assets/img/extoix-logo-white-small.png');
+  background-repeat: no-repeat;
+  background-position: 20px;
+}
+
+.hero-unit-brand {
+  text-align: center;
+}
+
+@media (min-width: 1210px) {
+  .subnav-fixed .nav {
+    width: auto;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 980px) {
+  .subnav-fixed .nav {
+    width: auto;
+    margin-left: 20px;
+  }
+}
+	
